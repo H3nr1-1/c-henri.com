@@ -171,6 +171,22 @@ main {
   margin-top: 2%;
 }
 
+/* Error text for validation plugin */
+.error-text {
+  color: red; 
+  font-size: smaller; 
+  display: block; 
+  margin-top: 5px;
+} 
+
+.error-text2 {
+  color: red; 
+  font-size: smaller; 
+  display: block; 
+  margin-top: 5px;
+  background: white;
+} 
+
 /* Colonial Motel pics */
 /* #col {
   padding: 2%;
