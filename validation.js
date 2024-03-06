@@ -1,8 +1,10 @@
 $(document).ready(function() {
   $("#contactForm").validate({
       rules: {
-          name: "required",
-          minlength: 2,
+          name: {
+              required: true,
+              minlength: 2,
+          },
           email: {
               required: true,
               email: true,
@@ -10,7 +12,10 @@ $(document).ready(function() {
           message: "required" 
       },
       messages: {
-          name: "Please specify your name",
+          name: {
+              required:  "Please specify your name",
+              minlength: "Name should be at least 2 characters long",
+          },
           email: {
               required: "Please enter your Email",
               email: "Your email address must be in the format of name@domain.com",
