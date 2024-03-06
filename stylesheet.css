@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 
@@ -16,8 +15,11 @@ body {
 }
 
 #underline {
-  text-decoration: underline;
   color: royalblue;
+}
+
+#underline:hover {
+  text-decoration: underline;
 }
 
 .container {
@@ -41,11 +43,15 @@ body {
 }
 
 .nav-link {
-  font-family: "Permanent Marker", cursive;
-  font-size: 200%;
+  font-family: "Raleway", cursive;
+  font-size: 225%;
   text-decoration: none;
   color: hotpink;
   text-shadow: 2px 2px royalblue;
+}
+
+.nav-link:hover{
+  text-decoration: underline;
 }
 
 .offcanvas-body {
@@ -299,7 +305,7 @@ textarea {
 }
 
 footer {
-  font-family: "Russo One", sans-serif;
+  font-family: "Russo", sans-serif;
   padding: 2%;
   margin-top: 10%;
 }
@@ -311,6 +317,11 @@ h5 {
 .email {
   color: antiquewhite;
   text-shadow: 5px 5px 5px hotpink;
+}
+
+.email:hover{
+  color:hotpink;
+  text-decoration: underline;
 }
 
 /* PC Parts Picker */
